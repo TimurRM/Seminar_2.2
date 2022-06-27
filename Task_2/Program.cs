@@ -20,6 +20,6 @@
         else if (number_3 >= number_2 && number_3 >= number_1)
         max = number_3;
         
-        Console.WriteLine(+ number_1 + "," + number_2 + "," + number_3 + " --> " + max);
+        Console.WriteLine(number_1 + "," + number_2 + "," + number_3 + " --> " + max);
     }
 }
