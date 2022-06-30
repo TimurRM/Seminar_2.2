@@ -4,9 +4,9 @@
 //     {
         void thirdNumber()
         {
-            // int number = new Random().Next(10, 1000001);
-            Console.Write("Input number: "); 
-            int number = Convert.ToInt32(Console.ReadLine()); 
+            int number = new Random().Next(10, 1000001);
+            // Console.Write("Input number: "); 
+            // int number = Convert.ToInt32(Console.ReadLine()); 
             Console.Write(number + " " + "->");
             if (number >= 1000000){
                 Console.WriteLine(" Please, input number less than 1 000 000");
@@ -24,10 +24,10 @@
                 Console.WriteLine(" " + number % 10);
             }
             else {
-                Console.WriteLine(" Third number exist");
+                Console.WriteLine(" Third number doesn't exist");
             }
         }
-           for (int i = 0; i < 6; i++)
+           for (int i = 0; i < 100; i++)
         {
 
             thirdNumber();
